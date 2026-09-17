@@ -7,7 +7,8 @@ import Student from "./Student"
 import InfoBox from './infobox'
 import Header from "./Header"
 import Navigation from "./Navigation"
-
+import Technology from './components/technology'
+import Footer from './components/Footer'
 
   const app = {
     name: "Zadanie samodzielne 1",
@@ -48,6 +49,11 @@ function App() {
   return (
     <div>
       <Header/>
+
+      <CourseCard></CourseCard>
+      <Technology></Technology>
+      <Technology></Technology>
+      <Technology></Technology>
 
       <Navigation/>
 
@@ -90,6 +96,7 @@ function App() {
 
       <InfoBox></InfoBox>
 
+      <Footer></Footer>
     </div>
   );
 }

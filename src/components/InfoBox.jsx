@@ -9,6 +9,7 @@ function InfoBox()
                 <li>I</li>
                 <li>Do</li>
                 <li>Pieca</li>
+                <li>67</li>
             </ul>
         </>
     );
