@@ -1,27 +1,19 @@
-function Technology() {
-  
-  const technologies =
-  [
-    {
-      name:"React"
-    },
-    {
-      name:"Vite"
-    },
-    {
-      name:"JavaScript"
-    }
-  ]
-  
-  
-  
-  
+function Technology(props) {
   return (
-    <div>
-      <h2>React</h2>
-      <p>Technologia frontendowa</p>
-      <p>{technologies[0].name + " " + technologies[1].name + " " + technologies[2].name}</p>
-    </div>
+    <section>
+
+      <h2>{props.name}</h2>
+
+      <p>
+        Kategoria: {props.category}
+      </p>
+
+      <p>
+        Liczba godzin: {props.hours}
+      </p>
+
+    </section>
   );
 }
-export default Technology
+
+export default Technology;
