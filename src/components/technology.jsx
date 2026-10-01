@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+function Technology(props) {
+  return (
+    <section>
+
+      <h2>{props.name}</h2>
+
+      <p>
+        Kategoria: {props.category}
+      </p>
+
+      <p>
+        Liczba godzin: {props.hours}
+      </p>
+
+    </section>
+=======
+>>>>>>> temp-changes
 function Technology({ name, category, hours }) {
   return (
     <section>
@@ -8,6 +28,10 @@ function Technology({ name, category, hours }) {
       
       </section>
     
+<<<<<<< HEAD
+=======
+>>>>>>> ef209ab (React_05_Biblioteka)
+>>>>>>> temp-changes
   );
 }
 
