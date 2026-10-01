@@ -37,7 +37,20 @@ function App() {
       name: "Express",
       category: "Backend",
       hours: 25
+    },
+    {
+    id: 4,
+    name: "Express",
+    category: "Backend",
+    hours: 25
+    },
+    {
+    id: 5,
+    name: "MongoDB",
+    category: "Baza danych",
+    hours: 20
     }
+
   ];
 
   const students = [
