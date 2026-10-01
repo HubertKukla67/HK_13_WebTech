@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 function Technology(props) {
   return (
     <section>
@@ -13,6 +14,18 @@ function Technology(props) {
       </p>
 
     </section>
+=======
+function Technology({ name, category, hours }) {
+  return (
+    <section>
+      <h2>{name}</h2>
+      
+      <p>Kategoria: {category}</p>
+      <p>Liczba godzin: {hours}</p>
+      
+      </section>
+    
+>>>>>>> ef209ab (React_05_Biblioteka)
   );
 }
 
