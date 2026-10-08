@@ -14,7 +14,7 @@ import Samochody from "./components/samochody";
 import Book from "./components/Book";
 import Product from './components/Product'
 import Counter from './components/Counter'
-
+import Bool from './components/Bool'
 
 function App() {
 
@@ -199,6 +199,8 @@ function App() {
         <button onClick={showMessage}>
           Kliknij
         </button>
+          
+         <Bool></Bool> 
           
           <Counter/>
 
