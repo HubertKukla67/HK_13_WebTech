@@ -1,38 +1,22 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-function Technology(props) {
-  return (
-    <section>
+import { useState } from "react";
 
-      <h2>{props.name}</h2>
-
-      <p>
-        Kategoria: {props.category}
-      </p>
-
-      <p>
-        Liczba godzin: {props.hours}
-      </p>
-
-    </section>
-=======
->>>>>>> temp-changes
 function Technology({ name, category, hours }) {
+
+  const [likes, setLikes] = useState(0);
+
   return (
     <section>
       <h2>{name}</h2>
-      
       <p>Kategoria: {category}</p>
       <p>Liczba godzin: {hours}</p>
-      
-      </section>
-    
-<<<<<<< HEAD
-=======
->>>>>>> ef209ab (React_05_Biblioteka)
->>>>>>> temp-changes
+
+      <p>Polubienia: {likes}</p>
+
+      <button onClick={() => setLikes(likes + 1)}>
+        Lubię
+      </button>
+    </section>
   );
 }
 
-export default Technology;
+export default Technology
