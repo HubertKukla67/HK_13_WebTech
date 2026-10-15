@@ -1,12 +1,13 @@
 import { useState } from "react";
 
-function Technology({ name, category, hours }) {
+function Technology({ name, category, hours, image}) {
 
   const [likes, setLikes] = useState(0);
 
   return (
     <section>
-      <h2>{name}</h2>
+      <img src={image}/>
+      <h3>{name}</h3>
       <p>Kategoria: {category}</p>
       <p>Liczba godzin: {hours}</p>
 
